@@ -1,0 +1,11 @@
+# directories:
+att_faces/*
+lfw/*
+lfw_data/*
+_pycache_/*
+.idea/*
+.ipynb_checkpoints/*
+# these files:
+*.npy
+*.tgz
+*.ipynbs
