@@ -12,5 +12,12 @@ def generate_matrix(siize = [10, 100]):
     return mat
 
 
+def generate_gaussian_matrix(siize = [10, 100]):
+    # mean = [0, 0]
+    # cov = [[1, 0], [0, 1]]
+    mat = np.random.normal(0, 1, siize)
+    return mat.T
+
+
 def load_matrix():
     return np.load('bernoulli.npy')
