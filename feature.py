@@ -9,7 +9,6 @@ def amp_filter(f, thresh):
 
 
 def extract_cs2fft(image, num_of_windows=100):
-    # todo: try omitting some data instead of adding zeros
     # create a margin so we can divide the image
     image_len = len(image)
     window_len = floor(image_len / num_of_windows)
